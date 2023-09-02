@@ -1,6 +1,6 @@
 import csv
 a = open("test.csv",mode="r",encoding="utf-8")
-html = ["<!DOCTYPE html>", "<head>","<title>Test</title>","</head>","<body>"]
+html = ["<!DOCTYPE html>", "<head>","<title>Test</title>","<link rel=\"stylesheet\" href=\"style.css\">","</head>","<body>"]
 
 rows = []
 head = []
